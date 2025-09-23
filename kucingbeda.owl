@@ -1,0 +1,1728 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#"
+     xml:base="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#memilikiCiri -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#memilikiCiri">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#memilikiJenisBulu -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#memilikiJenisBulu">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#memilikiCiri"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#memilikiJenisKaki -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#memilikiJenisKaki">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#memilikiCiri"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#memilikiJenisKelamin -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#memilikiJenisKelamin">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#memilikiCiri"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#memilikiUkuranTubuh -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#memilikiUkuranTubuh">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#memilikiCiri"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#memilikiWarnaBulu -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#memilikiWarnaBulu">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#memilikiCiri"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Abu-abu -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Abu-abu">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#WarnaBulu"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Abyssinian -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Abyssinian">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Aegean -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Aegean">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#AmericanBobtail -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#AmericanBobtail">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#AmericanCurl -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#AmericanCurl">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#AmericanShorthair -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#AmericanShorthair">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#AmericanWirehair -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#AmericanWirehair">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#ArabianMau -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#ArabianMau">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Asian -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Asian">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#AsianSemi-longhair -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#AsianSemi-longhair">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#AustralianMist -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#AustralianMist">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Balinese -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Balinese">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Bambino -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Bambino">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Bengal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Bengal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Besar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Besar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#UkuranTubuh"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Betina -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Betina">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#JenisKelamin"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Jantan"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Birman -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Birman">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Bombay -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Bombay">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BrazilianShorthair -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BrazilianShorthair">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BritishLonghair -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BritishLonghair">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BritishShorthair -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BritishShorthair">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BuluDoubleCoat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BuluDoubleCoat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#JenisBulu"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BuluKeriting -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BuluKeriting">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#JenisBulu"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BuluPanjang -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BuluPanjang">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#JenisBulu"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BuluPendek -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BuluPendek">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#JenisBulu"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BuluSedang -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BuluSedang">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#JenisBulu"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BuluSingleCoat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BuluSingleCoat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#JenisBulu"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BuluTidakAda-Hairless -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BuluTidakAda-Hairless">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#JenisBulu"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Burmese -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Burmese">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Burmilla -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Burmilla">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#CaliforniaSpangled -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#CaliforniaSpangled">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Chantilly-Tiffany -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Chantilly-Tiffany">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Chartreux -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Chartreux">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Chausie -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Chausie">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Coklat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Coklat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#WarnaBulu"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#ColorpointShorthair -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#ColorpointShorthair">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#CornishRex -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#CornishRex">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Cream -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Cream">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#WarnaBulu"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#CymricLonghairManx -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#CymricLonghairManx">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#DaerahPersebaran -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#DaerahPersebaran">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#ValuePartition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#DevonRex -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#DevonRex">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#DomainConcept -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#DomainConcept"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#DonskoyDonSphynx -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#DonskoyDonSphynx">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#DragonChineseLiHua -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#DragonChineseLiHua">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#EgyptianMau -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#EgyptianMau">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#EuropeanShorthair -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#EuropeanShorthair">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#ExoticShorthair -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#ExoticShorthair">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#GermanRex -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#GermanRex">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Harimau -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Harimau">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#pantheraTigris"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#HavanaBrown -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#HavanaBrown">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Himalayan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Himalayan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Hitam -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Hitam">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#WarnaBulu"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Jaguar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Jaguar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#pantheraOnca"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Jantan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Jantan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#JenisKelamin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#JapaneseBobtail -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#JapaneseBobtail">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#JavaneseOrientalLongHair -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#JavaneseOrientalLongHair">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#JenisBulu -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#JenisBulu">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#ValuePartition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#JenisKaki -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#JenisKaki">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#ValuePartition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#JenisKelamin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#JenisKelamin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#ValuePartition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Kecil -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Kecil">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#UkuranTubuh"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#KhaoManee -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#KhaoManee">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Korat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Korat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#KoreanBobtail -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#KoreanBobtail">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Kucing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Kucing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#genus(Felis)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#KurilianBobtail -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#KurilianBobtail">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#LaPerm -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#LaPerm">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Lykoi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Lykoi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#MaineCoon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#MaineCoon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Manx -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Manx">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#MekongBobtail -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#MekongBobtail">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Minskin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Minskin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Munchkin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Munchkin">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#memilikiJenisBulu"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BuluDoubleCoat"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#memilikiJenisBulu"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BuluPanjang"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#memilikiJenisBulu"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BuluPendek"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#memilikiUkuranTubuh"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Sedang"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#memilikiUkuranTubuh"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Sedang"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+        <rdfs:comment>Ras Kucing berkaki pendek, berasal dari Amerika</rdfs:comment>
+        <rdfs:label>Munchkin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Nebelung -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Nebelung">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#NorwegianForestCat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#NorwegianForestCat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ocicat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ocicat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#OjosAzules -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#OjosAzules">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Oranye -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Oranye">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#WarnaBulu"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#OrientalLonghair -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#OrientalLonghair">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#OrientalShorthair -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#OrientalShorthair">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Persian -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Persian">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Peterbald -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Peterbald">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Pixie-bob -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Pixie-bob">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Polydactyl -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Polydactyl">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#JenisKaki"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Putih -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Putih">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#WarnaBulu"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Raas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Raas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ragamuffin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ragamuffin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ragdoll -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ragdoll">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Kucing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#RussianBlue -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#RussianBlue">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Savannah -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Savannah">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#ScottishFold -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#ScottishFold">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Sedang -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Sedang">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#UkuranTubuh"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#SelkirkRex -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#SelkirkRex">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Serengeti -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Serengeti">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Siamese -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Siamese">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Siberian -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Siberian">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Singa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Singa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#pantheraLeo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Singapura -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Singapura">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Snowshoe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Snowshoe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Sokoke -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Sokoke">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Somali -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Somali">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Sphynx -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Sphynx">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Thai -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Thai">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Tonkinese -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Tonkinese">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Toyger -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Toyger">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#TurkishAngora -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#TurkishAngora">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#TurkishVan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#TurkishVan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#UkrainianLevkoy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#UkrainianLevkoy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#UkuranTubuh -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#UkuranTubuh">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#ValuePartition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#ValuePartition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#ValuePartition"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#WarnaBulu -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#WarnaBulu">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#ValuePartition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#altaica -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#altaica">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#pantheraTigris"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#amoyensis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#amoyensis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#pantheraTigris"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#azandica -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#azandica">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Singa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#balica -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#balica">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#pantheraTigris"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#bleyenberghi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#bleyenberghi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Singa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#corbetti -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#corbetti">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#pantheraTigris"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#delacouri -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#delacouri">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Jaguar"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#fusca -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#fusca">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Jaguar"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#hollisteri -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#hollisteri">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Singa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#jacksoni -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#jacksoni">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#pantheraTigris"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#kakiBelakangPanjang -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#kakiBelakangPanjang">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#JenisKaki"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#kakiDepanPendek -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#kakiDepanPendek">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#JenisKaki"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#kakiNormal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#kakiNormal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#JenisKaki"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#kakiPanjang -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#kakiPanjang">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#JenisKaki"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#kakiPendek -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#kakiPendek">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#JenisKaki"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#kotiya -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#kotiya">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Jaguar"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#krugeri -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#krugeri">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Singa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#leo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#leo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Singa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#macanTutul -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#macanTutul">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#pantheraPardus"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#macanTutulSalju -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#macanTutulSalju">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#pantheraUncia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#massaica -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#massaica">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Singa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#melas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#melas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Jaguar"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#nimr -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#nimr">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Jaguar"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#nubica -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#nubica">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Singa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#orientalis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#orientalis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Jaguar"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#pantheraLeo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#pantheraLeo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#genus(Panthera)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#pantheraOnca -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#pantheraOnca">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#genus(Panthera)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#pantheraPardus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#pantheraPardus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#genus(Panthera)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#pantheraTigris -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#pantheraTigris">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#genus(Panthera)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#pantheraUncia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#pantheraUncia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#genus(Panthera)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#pardus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#pardus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Jaguar"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#persica -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#persica">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Singa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#roosevelti -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#roosevelti">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Singa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#sangatBesar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#sangatBesar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#UkuranTubuh"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#saxicolor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#saxicolor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Jaguar"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#senegalensis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#senegalensis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Singa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#sondaica -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#sondaica">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#pantheraTigris"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#sumatrae -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#sumatrae">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#pantheraTigris"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#tigris -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#tigris">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#pantheraTigris"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#famili(Felidae) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#famili(Felidae)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#DomainConcept"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#genus(Felis) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#genus(Felis)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#famili(Felidae)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#genus(Panthera) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#genus(Panthera)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#famili(Felidae)"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Abu-abu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Abu-abu"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Besar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Besar"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Betina -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Betina"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BuluDoubleCoat -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BuluDoubleCoat"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BuluKeriting -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BuluKeriting"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BuluPanjang -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BuluPanjang"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BuluPendek -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BuluPendek"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BuluSedang -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BuluSedang"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BuluSingleCoat -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BuluSingleCoat"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BuluTidakAda-Hairless -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BuluTidakAda-Hairless"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Coklat -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Coklat"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Cream -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Cream"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Hitam -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Hitam"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Jantan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Jantan"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Kecil -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Kecil"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Munchkin_01 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Munchkin_01">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Munchkin"/>
+        <memilikiJenisBulu rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BuluPendek"/>
+        <memilikiJenisKaki rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#kakiPendek"/>
+        <memilikiJenisKelamin rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Jantan"/>
+        <memilikiWarnaBulu rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Putih"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Munchkin_02 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Munchkin_02">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Munchkin"/>
+        <memilikiJenisBulu rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BuluDoubleCoat"/>
+        <memilikiJenisKaki rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#kakiPendek"/>
+        <memilikiJenisKelamin rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Betina"/>
+        <memilikiWarnaBulu rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Cream"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Oranye -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Oranye"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Putih -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Putih"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Sedang -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Sedang"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#kakiBelakangPanjang -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#kakiBelakangPanjang"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#kakiDepanPendek -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#kakiDepanPendek"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#kakiNormal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#kakiNormal"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#kakiPanjang -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#kakiPanjang"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#kakiPendek -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#kakiPendek"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Abu-abu"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Coklat"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Cream"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Hitam"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Oranye"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Putih"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Abyssinian"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Aegean"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#AmericanBobtail"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#AmericanCurl"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#AmericanShorthair"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#AmericanWirehair"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#ArabianMau"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Asian"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#AsianSemi-longhair"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#AustralianMist"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Balinese"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Bambino"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Bengal"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Birman"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Bombay"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BrazilianShorthair"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BritishLonghair"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BritishShorthair"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Burmese"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Burmilla"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#CaliforniaSpangled"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Chantilly-Tiffany"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Chartreux"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Chausie"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#ColorpointShorthair"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#CornishRex"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#CymricLonghairManx"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#DevonRex"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#DonskoyDonSphynx"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#DragonChineseLiHua"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#EgyptianMau"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#EuropeanShorthair"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#ExoticShorthair"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#GermanRex"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#HavanaBrown"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Himalayan"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#JapaneseBobtail"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#JavaneseOrientalLongHair"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#KhaoManee"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Korat"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#KoreanBobtail"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#KurilianBobtail"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#LaPerm"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Lykoi"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#MaineCoon"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Manx"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#MekongBobtail"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Minskin"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Munchkin"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Nebelung"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#NorwegianForestCat"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ocicat"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#OjosAzules"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#OrientalLonghair"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#OrientalShorthair"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Persian"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Peterbald"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Pixie-bob"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ragamuffin"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ragdoll"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#RussianBlue"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Savannah"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#ScottishFold"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#SelkirkRex"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Serengeti"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Siamese"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Siberian"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Singapura"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Snowshoe"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Sokoke"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Somali"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Sphynx"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Thai"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Tonkinese"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Toyger"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#TurkishAngora"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#TurkishVan"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#UkrainianLevkoy"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Besar"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Kecil"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Sedang"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#sangatBesar"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BuluDoubleCoat"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BuluKeriting"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BuluPanjang"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BuluPendek"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BuluSedang"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BuluSingleCoat"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BuluTidakAda-Hairless"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Harimau"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#altaica"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#amoyensis"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#balica"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#corbetti"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#jacksoni"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#sondaica"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#sumatrae"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#tigris"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#JenisBulu"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#JenisKaki"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#JenisKelamin"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#UkuranTubuh"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#WarnaBulu"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Polydactyl"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#kakiBelakangPanjang"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#kakiDepanPendek"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#kakiNormal"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#kakiPanjang"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#kakiPendek"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#azandica"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#bleyenberghi"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#hollisteri"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#krugeri"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#leo"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#massaica"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#nubica"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#persica"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#roosevelti"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#senegalensis"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#delacouri"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#fusca"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#kotiya"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#melas"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#nimr"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#orientalis"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#pardus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#saxicolor"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#delacouri"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#fusca"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#melas"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#nimr"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#orientalis"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#pardus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#saxicolor"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#pantheraLeo"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#pantheraOnca"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#pantheraPardus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#pantheraTigris"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Munchkin_01"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Munchkin_02"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+
