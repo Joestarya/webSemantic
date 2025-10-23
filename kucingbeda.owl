@@ -3791,6 +3791,30 @@
     <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ragamuffin -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ragamuffin">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#memilikiBentukEkor"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#EkorPanjang"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#memilikiBentukKuping"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#KupingBulat"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#memilikiBentukMoncong"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#MoncongLebar"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#memilikiJenisBulu"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BuluPanjang"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
     </owl:Class>
     
