@@ -3205,6 +3205,12 @@
     <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#UkrainianLevkoy -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#UkrainianLevkoy">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#memilikiJenisBulu"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BuluPendek"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
     </owl:Class>
     
