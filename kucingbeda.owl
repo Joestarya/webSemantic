@@ -5367,7 +5367,9 @@
 
     <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Abu-abu -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Abu-abu"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Abu-abu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#WarnaBulu"/>
+    </owl:NamedIndividual>
     
 
 
