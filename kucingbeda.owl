@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#"
      xml:base="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
@@ -5413,31 +5413,41 @@
 
     <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#AfikaSub-Sahara -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#AfikaSub-Sahara"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#AfikaSub-Sahara">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#DaerahPersebaran"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#AfrikaBarat -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#AfrikaBarat"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#AfrikaBarat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#DaerahPersebaran"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#AfrikaSelatan -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#AfrikaSelatan"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#AfrikaSelatan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#DaerahPersebaran"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#AfrikaTengah -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#AfrikaTengah"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#AfrikaTengah">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#DaerahPersebaran"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#AfrikaTimur -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#AfrikaTimur"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#AfrikaTimur">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#DaerahPersebaran"/>
+    </owl:NamedIndividual>
     
 
 
@@ -5491,19 +5501,25 @@
 
     <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#AmerikaSelatan -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#AmerikaSelatan"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#AmerikaSelatan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#DaerahPersebaran"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#AmerikaTengah -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#AmerikaTengah"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#AmerikaTengah">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#DaerahPersebaran"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#AmerikaUtara -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#AmerikaUtara"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#AmerikaUtara">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#DaerahPersebaran"/>
+    </owl:NamedIndividual>
     
 
 
@@ -5533,31 +5549,41 @@
 
     <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#AsiaBarat -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#AsiaBarat"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#AsiaBarat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#DaerahPersebaran"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#AsiaSelatan -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#AsiaSelatan"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#AsiaSelatan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#DaerahPersebaran"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#AsiaTengah -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#AsiaTengah"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#AsiaTengah">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#DaerahPersebaran"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#AsiaTenggara -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#AsiaTenggara"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#AsiaTenggara">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#DaerahPersebaran"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#AsiaTimur -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#AsiaTimur"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#AsiaTimur">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#DaerahPersebaran"/>
+    </owl:NamedIndividual>
     
 
 
@@ -5638,13 +5664,17 @@
 
     <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Besar -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Besar"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Besar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#UkuranTubuh"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Betina -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Betina"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Betina">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#JenisKelamin"/>
+    </owl:NamedIndividual>
     
 
 
@@ -5690,37 +5720,49 @@
 
     <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BuluKeriting -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BuluKeriting"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BuluKeriting">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#JenisBulu"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BuluPanjang -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BuluPanjang"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BuluPanjang">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#JenisBulu"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BuluPendek -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BuluPendek"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BuluPendek">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#JenisBulu"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BuluSedang -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BuluSedang"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BuluSedang">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#JenisBulu"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BuluTidakAda-Hairless -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BuluTidakAda-Hairless"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BuluTidakAda-Hairless">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#JenisBulu"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BuluTipis -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BuluTipis"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BuluTipis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#JenisBulu"/>
+    </owl:NamedIndividual>
     
 
 
@@ -5758,19 +5800,25 @@
 
     <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#ClassicTabby -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#ClassicTabby"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#ClassicTabby">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#MotifBulu"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Coklat -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Coklat"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Coklat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#WarnaBulu"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#ColorPoint -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#ColorPoint"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#ColorPoint">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#MotifBulu"/>
+    </owl:NamedIndividual>
     
 
 
@@ -5800,7 +5848,9 @@
 
     <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Cream -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Cream"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Cream">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#WarnaBulu"/>
+    </owl:NamedIndividual>
     
 
 
@@ -5822,7 +5872,9 @@
 
     <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#DoubleCoat -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#DoubleCoat"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#DoubleCoat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#JenisCoat"/>
+    </owl:NamedIndividual>
     
 
 
@@ -5844,19 +5896,25 @@
 
     <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#EkorPanjang -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#EkorPanjang"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#EkorPanjang">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BentukEkor"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#EkorPendek -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#EkorPendek"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#EkorPendek">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BentukEkor"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#EkorSedang -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#EkorSedang"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#EkorSedang">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BentukEkor"/>
+    </owl:NamedIndividual>
     
 
 
@@ -5902,7 +5960,9 @@
 
     <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Hitam -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Hitam"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Hitam">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#WarnaBulu"/>
+    </owl:NamedIndividual>
     
 
 
@@ -5916,7 +5976,9 @@
 
     <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Jantan -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Jantan"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Jantan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#JenisKelamin"/>
+    </owl:NamedIndividual>
     
 
 
@@ -5938,7 +6000,9 @@
 
     <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Kecil -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Kecil"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Kecil">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#UkuranTubuh"/>
+    </owl:NamedIndividual>
     
 
 
@@ -5956,7 +6020,7 @@
         <memilikiUkuranTubuh rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Sedang"/>
         <memilikiWarnaBulu rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Putih"/>
         <BeratKg rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.4</BeratKg>
-        <JenisKelamin rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jantan</JenisKelamin>
+        <JenisKelamin>Jantan</JenisKelamin>
         <Umur rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.0</Umur>
     </owl:NamedIndividual>
     
@@ -6058,7 +6122,7 @@
         <memilikiUkuranTubuh rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Sedang"/>
         <memilikiWarnaBulu rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Cream"/>
         <BeratKg rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</BeratKg>
-        <JenisKelamin rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jantan</JenisKelamin>
+        <JenisKelamin>Jantan</JenisKelamin>
         <Umur rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.5</Umur>
     </owl:NamedIndividual>
     
@@ -6388,31 +6452,41 @@
 
     <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#kakiBelakangPanjang -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#kakiBelakangPanjang"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#kakiBelakangPanjang">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#JenisKaki"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#kakiDepanPendek -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#kakiDepanPendek"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#kakiDepanPendek">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#JenisKaki"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#kakiNormal -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#kakiNormal"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#kakiNormal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#JenisKaki"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#kakiPanjang -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#kakiPanjang"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#kakiPanjang">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#JenisKaki"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#kakiPendek -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#kakiPendek"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#kakiPendek">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#JenisKaki"/>
+    </owl:NamedIndividual>
     
 
 
@@ -6654,5 +6728,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
 
