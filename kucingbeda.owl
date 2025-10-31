@@ -17,7 +17,117 @@ WHERE {
   ?individu kucing:memilikiJenisBulu kucing:BuluPanjang .
 }
 
-2. cari</rdfs:comment>
+2. cari nama individu dan ras apakah dia
+
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX kucing: &lt;http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#&gt;
+
+SELECT ?individu ?ras
+WHERE {
+  ?individu rdf:type ?ras .
+  ?ras rdfs:subClassOf kucing:Ras .
+}
+ORDER BY ?ras
+
+3. Individu, Ras, Ciri - Ciri
+
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX kucing: &lt;http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#&gt;
+
+SELECT DISTINCT ?individu ?property ?value
+WHERE {
+  ?individu rdf:type ?ras .
+  ?ras rdfs:subClassOf kucing:Ras .
+  ?individu ?property ?value .
+  FILTER regex(str(?property), &quot;untitled-ontology-10#&quot;, &quot;i&quot;)
+}
+
+4.  Kucing Ras memiliki bulu Putih
+
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX kucing: &lt;http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#&gt;
+
+SELECT ?individu ?property ?warna
+WHERE {
+  ?individu kucing:memilikiWarnaBulu ?warna .
+  BIND(&quot;memilikiWarnaBulu&quot; AS ?property)
+  FILTER regex(str(?warna), &quot;Putih$&quot;, &quot;i&quot;)
+}
+
+5. Kucing Ras double coat
+
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX kucing: &lt;http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#&gt;
+
+SELECT ?individu ?property ?coat
+WHERE {
+  ?individu kucing:memilikiJenisCoat ?coat .
+  BIND(&quot;memilikiJenisCoat&quot; AS ?property)
+  FILTER regex(str(?coat), &quot;DoubleCoat$&quot;, &quot;i&quot;)
+}
+
+6. Kucing Ras Single Coat
+
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX kucing: &lt;http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#&gt;
+
+SELECT ?individu ?property ?coat
+WHERE {
+  ?individu kucing:memilikiJenisCoat ?coat .
+  BIND(&quot;memilikiJenisCoat&quot; AS ?property)
+  FILTER regex(str(?coat), &quot;DoubleCoat$&quot;, &quot;i&quot;)
+}
+
+7.  Individu dan Ras
+
+PREFIX rdf:  &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX kucing: &lt;http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#&gt;
+
+SELECT DISTINCT ?individu ?ras
+WHERE {
+  ?individu rdf:type ?ras .
+  FILTER(regex(str(?ras), &quot;untitled-ontology-10#&quot;, &quot;i&quot;))  
+}
+ORDER BY ?ras ?individu
+
+8. Kucing Dari Amerika Utara
+
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX kucing: &lt;http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#&gt;
+
+SELECT ?individu ?daerah
+WHERE {
+  ?individu kucing:memilikiDaerahPersebaran ?daerah .
+  FILTER regex(str(?daerah), &quot;AmerikaUtara$&quot;, &quot;i&quot;)
+}
+
+9. Kucing Ras Siamese dan Property nya 
+
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt;
+PREFIX kucing: &lt;http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#&gt;
+
+SELECT ?property ?value
+WHERE {
+  kucing:Siamese ?property ?value .
+}
+
+10. Kucing Ras dengan buluPendek dan motif TickedTabby
+
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX kucing: &lt;http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#&gt;
+
+SELECT ?ras
+WHERE {
+  ?ras kucing:memilikiJenisBulu kucing:BuluPendek ;
+       kucing:memilikiMotifBulu kucing:TickedTabby .
+}</rdfs:comment>
     </owl:Ontology>
     
 
@@ -5486,6 +5596,7 @@ WHERE {
         <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Asian"/>
         <memilikiBentukEkor rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#EkorSedang"/>
         <memilikiBentukKuping rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#KupingTegak"/>
+        <memilikiDaerahPersebaran rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#EropaUtara"/>
         <memilikiJenisBulu rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BuluPendek"/>
         <memilikiJenisCoat rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#SingleCoat"/>
         <memilikiJenisKaki rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#kakiNormal"/>
