@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#"
      xml:base="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
@@ -67,6 +67,16 @@ WHERE {
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#memilikiCiri">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#memilikiDaerahPersebaran -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#memilikiDaerahPersebaran">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#memilikiCiri"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Ras"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#CiriCiri"/>
     </owl:ObjectProperty>
     
 
@@ -617,6 +627,12 @@ WHERE {
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#memilikiBentukEkor"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#EkorSedang"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#memilikiDaerahPersebaran"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Eropa"/>
             </owl:Restriction>
         </owl:equivalentClass>
         <owl:equivalentClass>
@@ -1693,6 +1709,14 @@ WHERE {
     
 
 
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Cheetah -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Cheetah">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#genus(Acynonyx)"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#CiriCiri -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#CiriCiri"/>
@@ -2133,6 +2157,14 @@ WHERE {
 
     <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#EkorSedang">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BentukEkor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Eropa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Eropa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#DaerahPersebaran"/>
     </owl:Class>
     
 
@@ -4360,7 +4392,7 @@ WHERE {
     <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Singa -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Singa">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#pantheraLeo"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#genus(Panthera)"/>
     </owl:Class>
     
 
@@ -5189,14 +5221,6 @@ WHERE {
     
 
 
-    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#pantheraLeo -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#pantheraLeo">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#genus(Panthera)"/>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#pantheraOnca -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#pantheraOnca">
@@ -5313,6 +5337,14 @@ WHERE {
 
     <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#famili(Felidae)">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#DomainConcept"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#genus(Acynonyx) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#genus(Acynonyx)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#famili(Felidae)"/>
     </owl:Class>
     
 
@@ -6037,7 +6069,7 @@ WHERE {
         <memilikiUkuranTubuh rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Sedang"/>
         <memilikiWarnaBulu rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Putih"/>
         <BeratKg rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.4</BeratKg>
-        <JenisKelamin rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jantan</JenisKelamin>
+        <JenisKelamin>Jantan</JenisKelamin>
         <Umur rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.0</Umur>
     </owl:NamedIndividual>
     
@@ -6055,7 +6087,7 @@ WHERE {
         <memilikiJenisKaki rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#kakiNormal"/>
         <memilikiUkuranTubuh rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Sedang"/>
         <BeratKg rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.2</BeratKg>
-        <JenisKelamin rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Betina</JenisKelamin>
+        <JenisKelamin>Betina</JenisKelamin>
         <Umur rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.3</Umur>
     </owl:NamedIndividual>
     
@@ -6165,7 +6197,7 @@ WHERE {
         <memilikiUkuranTubuh rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Sedang"/>
         <memilikiWarnaBulu rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Cream"/>
         <BeratKg rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</BeratKg>
-        <JenisKelamin rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jantan</JenisKelamin>
+        <JenisKelamin>Jantan</JenisKelamin>
         <Umur rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.5</Umur>
     </owl:NamedIndividual>
     
@@ -6794,18 +6826,9 @@ WHERE {
             <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#saxicolor"/>
         </owl:members>
     </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#pantheraLeo"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#pantheraOnca"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#pantheraPardus"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#pantheraTigris"/>
-        </owl:members>
-    </rdf:Description>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
 
