@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#"
      xml:base="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
@@ -5758,7 +5758,7 @@ WHERE {
         <memilikiMotifBulu rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#ClassicTabby"/>
         <memilikiUkuranTubuh rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Sedang"/>
         <BeratKg rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.0</BeratKg>
-        <JenisKelamin rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jantan</JenisKelamin>
+        <JenisKelamin>Jantan</JenisKelamin>
         <Umur rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.3</Umur>
     </owl:NamedIndividual>
     
@@ -5778,7 +5778,7 @@ WHERE {
         <memilikiUkuranTubuh rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Sedang"/>
         <memilikiWarnaBulu rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Cream"/>
         <BeratKg rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.5</BeratKg>
-        <JenisKelamin rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Perempuan</JenisKelamin>
+        <JenisKelamin>Perempuan</JenisKelamin>
         <Umur rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</Umur>
     </owl:NamedIndividual>
     
@@ -5823,7 +5823,7 @@ WHERE {
         <memilikiUkuranTubuh rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Sedang"/>
         <memilikiWarnaBulu rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Coklat"/>
         <BeratKg rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.5</BeratKg>
-        <JenisKelamin rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jantan</JenisKelamin>
+        <JenisKelamin>Jantan</JenisKelamin>
         <Umur rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.0</Umur>
     </owl:NamedIndividual>
     
@@ -5844,7 +5844,7 @@ WHERE {
         <memilikiUkuranTubuh rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Besar"/>
         <memilikiWarnaBulu rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Coklat"/>
         <BeratKg rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.5</BeratKg>
-        <JenisKelamin rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jantan</JenisKelamin>
+        <JenisKelamin>Jantan</JenisKelamin>
         <Umur rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</Umur>
     </owl:NamedIndividual>
     
@@ -5910,6 +5910,15 @@ WHERE {
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Awi_AmerikanWirehair">
         <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#AmericanWirehair"/>
+        <memilikiBentukEkor rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#EkorSedang"/>
+        <memilikiBentukKuping rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#KupingTegak"/>
+        <memilikiJenisBulu rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BuluPendek"/>
+        <memilikiJenisCoat rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#SingleCoat"/>
+        <memilikiJenisKaki rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#kakiNormal"/>
+        <memilikiUkuranTubuh rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Sedang"/>
+        <BeratKg rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</BeratKg>
+        <JenisKelamin>Laki Laki</JenisKelamin>
+        <Umur rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.4</Umur>
     </owl:NamedIndividual>
     
 
@@ -5918,6 +5927,16 @@ WHERE {
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Axel_AsianSemi-longhair">
         <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#AsianSemi-longhair"/>
+        <memilikiBentukEkor rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#EkorPanjang"/>
+        <memilikiBentukKuping rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#KupingTegak"/>
+        <memilikiBentukMoncong rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#MoncongDatar"/>
+        <memilikiJenisBulu rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#BuluSedang"/>
+        <memilikiJenisCoat rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#SingleCoat"/>
+        <memilikiJenisKaki rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#kakiNormal"/>
+        <memilikiUkuranTubuh rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Sedang"/>
+        <BeratKg rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.2</BeratKg>
+        <JenisKelamin>Jantan</JenisKelamin>
+        <Umur rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</Umur>
     </owl:NamedIndividual>
     
 
@@ -6406,7 +6425,7 @@ WHERE {
         <memilikiMotifBulu rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#ClassicTabby"/>
         <memilikiUkuranTubuh rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Sedang"/>
         <memilikiWarnaBulu rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Coklat"/>
-        <JenisKelamin rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Perempuan</JenisKelamin>
+        <JenisKelamin>Perempuan</JenisKelamin>
         <Umur rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.1</Umur>
         <Umur rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.5</Umur>
     </owl:NamedIndividual>
@@ -6544,7 +6563,7 @@ WHERE {
         <memilikiUkuranTubuh rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Besar"/>
         <memilikiWarnaBulu rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Cream"/>
         <BeratKg rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.5</BeratKg>
-        <JenisKelamin rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Perempuan</JenisKelamin>
+        <JenisKelamin>Perempuan</JenisKelamin>
         <Umur rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</Umur>
     </owl:NamedIndividual>
     
@@ -6629,7 +6648,7 @@ WHERE {
         <memilikiUkuranTubuh rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Besar"/>
         <memilikiWarnaBulu rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Coklat"/>
         <BeratKg rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</BeratKg>
-        <JenisKelamin rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Betina</JenisKelamin>
+        <JenisKelamin>Betina</JenisKelamin>
         <Umur rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.0</Umur>
     </owl:NamedIndividual>
     
@@ -6717,7 +6736,7 @@ WHERE {
         <memilikiUkuranTubuh rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Sedang"/>
         <memilikiWarnaBulu rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Coklat"/>
         <BeratKg rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.2</BeratKg>
-        <JenisKelamin rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Laki Laki</JenisKelamin>
+        <JenisKelamin>Laki Laki</JenisKelamin>
         <Umur rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.0</Umur>
     </owl:NamedIndividual>
     
@@ -6752,7 +6771,7 @@ WHERE {
         <memilikiJenisKaki rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#kakiNormal"/>
         <memilikiUkuranTubuh rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Sedang"/>
         <BeratKg rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.6</BeratKg>
-        <JenisKelamin rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Laki Laki</JenisKelamin>
+        <JenisKelamin>Laki Laki</JenisKelamin>
         <Umur rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.0</Umur>
     </owl:NamedIndividual>
     
@@ -6788,7 +6807,7 @@ WHERE {
         <memilikiUkuranTubuh rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Sedang"/>
         <memilikiWarnaBulu rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Abu-abu"/>
         <BeratKg rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</BeratKg>
-        <JenisKelamin rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Laki Laki</JenisKelamin>
+        <JenisKelamin>Laki Laki</JenisKelamin>
         <Umur rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.4</Umur>
     </owl:NamedIndividual>
     
@@ -6809,7 +6828,7 @@ WHERE {
         <memilikiUkuranTubuh rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Sedang"/>
         <memilikiWarnaBulu rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Abu-abu"/>
         <BeratKg rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.5</BeratKg>
-        <JenisKelamin rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Perempuan</JenisKelamin>
+        <JenisKelamin>Perempuan</JenisKelamin>
         <Umur rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.5</Umur>
     </owl:NamedIndividual>
     
@@ -6853,7 +6872,7 @@ WHERE {
         <memilikiUkuranTubuh rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Sedang"/>
         <memilikiWarnaBulu rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Cream"/>
         <BeratKg rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</BeratKg>
-        <JenisKelamin rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Laki Laki</JenisKelamin>
+        <JenisKelamin>Laki Laki</JenisKelamin>
         <Umur rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</Umur>
     </owl:NamedIndividual>
     
@@ -6882,7 +6901,7 @@ WHERE {
         <memilikiUkuranTubuh rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Kecil"/>
         <memilikiWarnaBulu rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Abu-abu"/>
         <BeratKg rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.5</BeratKg>
-        <JenisKelamin rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Perempuan</JenisKelamin>
+        <JenisKelamin>Perempuan</JenisKelamin>
         <Umur rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.5</Umur>
     </owl:NamedIndividual>
     
@@ -6959,7 +6978,7 @@ WHERE {
         <memilikiUkuranTubuh rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Sedang"/>
         <memilikiWarnaBulu rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/8/untitled-ontology-10#Hitam"/>
         <BeratKg rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.3</BeratKg>
-        <JenisKelamin rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Perempuan</JenisKelamin>
+        <JenisKelamin>Perempuan</JenisKelamin>
         <Umur rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</Umur>
     </owl:NamedIndividual>
     
@@ -7258,5 +7277,5 @@ WHERE {
 
 
 
-<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
 
